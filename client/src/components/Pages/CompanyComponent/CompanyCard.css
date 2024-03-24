@@ -1,0 +1,137 @@
+.card {
+  display: flex;
+  height: 142px;
+  background: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+ 
+}
+.resultLength{
+  margin: 12px 12px 0px 12px;
+font-size: 13px;
+font-weight: 400;
+color: #A0A0A0;
+}
+.nameReviewContent{
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+.card-image {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 12px 12px;
+}
+.prof-image{
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 12px 12px;
+}
+.profCard{
+    border-radius: 100%;
+}
+.imgCard{
+    border-radius: 4px;
+}
+
+.card-details {
+  padding: 12px 10px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.company-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 12px;
+  padding: 24px 80px;
+}
+.cardBoady {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 12px;
+}
+.company-name {
+  font-size: 20px;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
+}
+.locCompBody {
+    padding-top: 4px;
+  line-height: 12px;
+}
+
+.location {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #767676;
+}
+
+.founded-on {
+font-size: 12px;
+font-weight: 400;
+  color: #767676;
+  line-height: 0px;
+}
+.created-on {
+font-size: 12px;
+font-weight: 400;
+  color:#969696;
+}
+.bodyTextReview{
+font-size: 14px;
+font-weight: 400;
+line-height: 22.5px;
+text-align: left;
+margin-top: 4px;
+color: #494949;
+;
+}
+.reviewTitleBody{
+  position: relative;
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: start;
+}
+.ratingFilled{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+.detailed-review-button {
+  align-self: flex-end;
+  padding: 6px 22px;
+background: #303030;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+font-weight: 500;
+line-height: 22.5px;
+text-align: left;
+
+}
+.detailsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.firstCont{
+  width: 100%;
+  border-bottom: 1px solid #ECECEC;
+}
+.secondCont{
+  width: 100%;
+}
+
+.detailed-review-button:hover {
+    background: #303030;
+}

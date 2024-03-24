@@ -1,0 +1,57 @@
+/* frontend/src/app/components/HeaderSection.css */
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 46px;
+  }
+  .selectHead{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .subsection {
+    display: flex;
+    align-items: end;
+  }
+  .headingSort{
+    color: #4A4A4A;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+
+  }
+  .subsectionSort{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+  
+  .find-company-btn,
+  .add-company-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .find-company-btn:hover,
+  .add-company-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .sort-dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
